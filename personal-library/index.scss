@@ -1,0 +1,57 @@
+@use 'sass:math';
+//variables & functions
+@import 'variables';
+@import 'functions';
+
+//base & layout 
+@import 'base';
+@import 'breakpoints';
+
+// DISPLAY GRID
+// DISPLAY FLEX
+// .CONTAINER
+@import 'grid';
+
+//colors 
+
+@import 'colors';
+@import 'style';
+
+//components
+// @import 'components/card';
+// @import 'components/button';
+// @import 'components/navbar';
+
+
+//utilities 
+// CONTENT : 
+    // PADDING : .p[0-5]
+    //     left : .pl[0-5]
+    //     right: .pr[0-5]
+    //     top: .pt[0-5]
+    //     bottom: .pb[0-5]
+    // OPACITY : .o[10 - 100]
+    // MARGIN : m:.m[0-5]
+    //     left : .ml[0-5]
+    //     right: .mr[0-5]
+    //     top: .mt[0-5]
+    //     bottom: .mb[0-5]
+    // BORDER-RADIUS
+    //     .br-none
+    //     .br-xs
+    //     .br-sm
+    //     .br-lg
+    //     .br-full
+    // DISPLAY
+    //     n => .display-none
+    //     b => .display-block
+    //     f => .display-flex
+    //     i => .display-inline
+    //     i-b => .display-inline-block
+    // FONT-SIZE
+    //         .font-sm
+    //         .font-md
+    //         .font-lg
+    //         .font-xl
+    //         .font-xxl
+// @import 'utilities';

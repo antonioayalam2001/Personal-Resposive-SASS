@@ -1,0 +1,4 @@
+@function light-comp($color){
+    $complement : complement($color);
+    @return $complement;
+}

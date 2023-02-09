@@ -1,0 +1,18 @@
+$primary: red;
+$secondary: lightpink;
+@import '../personal-library';
+@include xs {
+    .trialContainer{
+        background-color: deeppink;
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@include ss {
+    .trialContainer{
+        background-color: red;
+        width: 100px;
+        height: 100px;
+    }
+}

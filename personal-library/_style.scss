@@ -1,0 +1,15 @@
+// import google font
+.title{
+    color: $primary;
+    font-size: 3rem;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    padding: 1rem;
+}
+
+.title2{
+    @extend .title;
+    font-size: 1.5rem;
+    color: $secondary;
+}

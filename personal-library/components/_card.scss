@@ -1,0 +1,59 @@
+.card {
+    display: block;
+    margin: 0 auto;
+    padding: $base-padding;
+    border: $base-border-thickness solid #ddd;
+    box-shadow: $base-box-shadow;
+    width: 100%;
+    max-width: 450px;
+
+    &__title {
+        font-size: $large-font-size;
+        color: $error;
+        font-weight: bolder;
+
+        @include sm {
+            background-color: lightblue;
+            font-size: 3rem;
+        }
+
+        @include xs {
+            background-color: red;
+            font-size: 0.5rem;
+        }
+
+    }
+
+    &__paragraph {
+        background-color: map-get($colors, "orange");
+        padding: $base-padding + 1rem;
+        color: purple;
+    }
+
+    &__quote {
+        font-size: math.div($base-font-size, 2);
+    }
+}
+
+@include ss {
+    .card__quote {
+        font-size: 0.8rem;
+        color: white;
+        background-color: darken(blue, 20%);
+    }
+
+}
+
+@include xs {
+    .card__quote {
+        font-size: 0.4rem;
+        color: white;
+        background-color: black;
+    }
+}
+
+@include breakpoint(750px) {
+    .card {
+        background-color: lightpink;
+    }
+}
